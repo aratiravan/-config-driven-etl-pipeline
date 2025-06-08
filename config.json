@@ -1,0 +1,17 @@
+{
+    "drop_colums" :["Cabin","Ticket"],
+      "fillna" :
+      {
+          "Age":30,
+          "Embarked":"S",
+          "Height(Inches)":160,
+          "Weight(Pounds)" : 65
+          
+      },
+      "convert_types":
+      {
+        "Age":"int",
+        "Height(Inches)":"float",
+        "Weight(Pounds)" : "float"
+      }
+}
